@@ -112,7 +112,7 @@ made the scoping/judgment calls, and wrote the gold labels by reading tickets.
 - **Models considered:** shipped rules (₹0) as the default; Claude Haiku 4.5 as
   the optional paid path (~₹345/full run).
 
-**Three-minute screen recording:** [PASTE YOUR GOOGLE DRIVE / YOUTUBE LINK HERE]
+**Three-minute screen recording:** https://drive.google.com/file/d/1tMK7Kvqkua0-7fIGqu2VHkbwrRpY6hRM/view?usp=sharing
 
 ### 9. Someone picks this up Monday and you're unreachable. The three things.
 
