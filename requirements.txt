@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+PyYAML>=6.0
+# Optional: only needed if you run the LLM classifier (make classify-llm).
+# The default pipeline runs fully offline with zero paid API calls.
+anthropic>=0.40 ; extra == "llm"

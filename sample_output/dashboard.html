@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vireo Support Triage</title>
+<style>
+:root{--ink:#0f172a;--mut:#64748b;--line:#e2e8f0;--bg:#f8fafc;--card:#fff;--blue:#2563eb;--red:#dc2626;--green:#16a34a;}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:1040px;margin:0 auto;padding:28px 20px 64px}
+h1{font-size:26px;margin:0 0 2px}h2{font-size:18px;margin:34px 0 12px;border-bottom:2px solid var(--line);padding-bottom:6px}
+.sub{color:var(--mut);margin:0 0 20px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:18px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.kpi .n{font-size:24px;font-weight:700}.kpi .l{color:var(--mut);font-size:13px;margin-top:4px}
+.kpi.red .n{color:var(--red)}.kpi.blue .n{color:var(--blue)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:12px 0}
+.bar{display:grid;grid-template-columns:150px 1fr 110px;align-items:center;gap:10px;margin:6px 0;font-size:13px}
+.bar .track{background:#eef2f7;border-radius:6px;overflow:hidden;height:16px}.bar .fill{display:block;height:16px}
+.bar .val{text-align:right;color:var(--mut)}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line)}
+th{color:var(--mut);font-weight:600}
+.callout{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:16px 18px;margin:16px 0}
+.callout b{color:#b45309}
+ul.checks{list-style:none;padding:0;margin:0;font-size:13px}ul.checks li{padding:4px 0}
+.ok{color:var(--green)}.bad{color:var(--red)}
+.note{color:var(--mut);font-size:12px;margin-top:8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:760px){.two{grid-template-columns:1fr}.bar{grid-template-columns:110px 1fr 90px}}
+</style></head><body><div class="wrap">
+<h1>Vireo Audio - Support Triage</h1>
+<p class="sub">Generated from tickets.csv (Jan 2025 - Jun 2026). All figures recomputed from the raw exports; replacement cost = unit_cost + Rs 340 (policy s5).</p>
+
+<div class="callout">
+<b>Headline:</b> The replacement bill, not the agents, is where the money is.
+Pulse 2 earbuds account for <b>Rs 2,122,120</b>
+(62%) of all replacement spend and
+<b>66%</b> of last quarter's bill.
+66% of Pulse 2 replacements are the same defect (left earbud won't charge), concentrated in lots PL2-2510/2511/2512 - a batch problem, not a training problem.
+</div>
+
+<div class="kpis">
+<div class="kpi red"><div class="n">Rs 1,958,320</div><div class="l">Pulse 2 replacement cost since Dec 2025 (1076 units)</div></div>
+<div class="kpi blue"><div class="n">Rs 3,415,990</div><div class="l">Total replacement spend, 18 months (1896 units)</div></div>
+<div class="kpi"><div class="n">Rs 1,802</div><div class="l">Actual avg / replacement (Finance planned at Rs 2,500 - 39% high)</div></div>
+<div class="kpi"><div class="n">6 of 10</div><div class="l">"Bottom 10" that are Tier-2 triage agents (should not be ranked vs Tier 1)</div></div>
+</div>
+
+<h2>Replacement spend by quarter</h2>
+<div class="card"><div class='bar'><span class='lab'>2025Q1</span><span class='track'><span class='fill' style='width:11%;background:#2563eb'></span></span><span class='val'>Rs 166,320</span></div>
+<div class='bar'><span class='lab'>2025Q2</span><span class='track'><span class='fill' style='width:12%;background:#2563eb'></span></span><span class='val'>Rs 192,690</span></div>
+<div class='bar'><span class='lab'>2025Q3</span><span class='track'><span class='fill' style='width:18%;background:#2563eb'></span></span><span class='val'>Rs 287,820</span></div>
+<div class='bar'><span class='lab'>2025Q4</span><span class='track'><span class='fill' style='width:35%;background:#2563eb'></span></span><span class='val'>Rs 554,990</span></div>
+<div class='bar'><span class='lab'>2026Q1</span><span class='track'><span class='fill' style='width:100%;background:#2563eb'></span></span><span class='val'>Rs 1,567,540</span></div>
+<div class='bar'><span class='lab'>2026Q2</span><span class='track'><span class='fill' style='width:41%;background:#2563eb'></span></span><span class='val'>Rs 646,630</span></div>
+<div class="note">Spend rose ~9x from 2025Q1 to 2026Q1, then began falling as the bad lots cleared.</div></div>
+
+<h2>Where the replacements are (by product)</h2>
+<div class="card"><div class='bar'><span class='lab'>Pulse 2 True Wireless Earbuds</span><span class='track'><span class='fill' style='width:100%;background:#2563eb'></span></span><span class='val'>Rs 2,122,120</span></div>
+<div class='bar'><span class='lab'>Nexa 2 Smartwatch</span><span class='track'><span class='fill' style='width:13%;background:#2563eb'></span></span><span class='val'>Rs 281,790</span></div>
+<div class='bar'><span class='lab'>Pulse True Wireless Earbuds</span><span class='track'><span class='fill' style='width:10%;background:#2563eb'></span></span><span class='val'>Rs 213,160</span></div>
+<div class='bar'><span class='lab'>Strata 3 Over-Ear Headphones</span><span class='track'><span class='fill' style='width:10%;background:#2563eb'></span></span><span class='val'>Rs 209,300</span></div>
+<div class='bar'><span class='lab'>AirLite Earbuds</span><span class='track'><span class='fill' style='width:6%;background:#2563eb'></span></span><span class='val'>Rs 122,100</span></div>
+<div class='bar'><span class='lab'>Strata 2 Over-Ear Headphones</span><span class='track'><span class='fill' style='width:4%;background:#2563eb'></span></span><span class='val'>Rs 92,720</span></div>
+<div class='bar'><span class='lab'>Orbit Mini Speaker</span><span class='track'><span class='fill' style='width:4%;background:#2563eb'></span></span><span class='val'>Rs 83,160</span></div>
+<div class='bar'><span class='lab'>Orbit Smart Speaker</span><span class='track'><span class='fill' style='width:4%;background:#2563eb'></span></span><span class='val'>Rs 79,200</span></div></div>
+
+<h2>Pulse 2 - manufacturing lot concentration</h2>
+<div class="card two">
+<div><table><thead><tr><th>lot_code</th><th>units</th></tr></thead><tbody><tr><td>PL2-2510-3</td><td>70</td></tr><tr><td>PL2-2510-1</td><td>69</td></tr><tr><td>PL2-2511-3</td><td>66</td></tr><tr><td>PL2-2510-4</td><td>64</td></tr><tr><td>PL2-2510-2</td><td>59</td></tr><tr><td>PL2-2511-4</td><td>58</td></tr><tr><td>PL2-2511-2</td><td>50</td></tr><tr><td>PL2-2511-1</td><td>50</td></tr><tr><td>PL2-2512-4</td><td>45</td></tr><tr><td>PL2-2512-2</td><td>36</td></tr></tbody></table></div>
+<div><table><thead><tr><th>defect</th><th>units</th></tr></thead><tbody><tr><td>left_bud_charging</td><td>774</td></tr><tr><td>other</td><td>101</td></tr><tr><td>charging_battery</td><td>69</td></tr><tr><td>audio_quality</td><td>68</td></tr><tr><td>transit_damage</td><td>63</td></tr><tr><td>wrong_item</td><td>55</td></tr><tr><td>connectivity_pairing</td><td>36</td></tr></tbody></table>
+<div class="note">Lot codes PL2-YYMM-batch. The failures cluster in Oct-Dec 2025 production.</div></div>
+</div>
+
+<h2>Agent scorecard - the "bottom 10" trap</h2>
+<div class="two">
+<div class="card"><h3 style="margin:0 0 8px;font-size:14px">What was asked: bottom 10 by CSAT (all tiers)</h3>
+<table><thead><tr><th>name</th><th>team</th><th>tier</th><th>csat</th><th>handle_min_median</th></tr></thead><tbody><tr><td>Jaspreet Desai</td><td>Escalations & Warranty</td><td>2</td><td>2.42</td><td>7291.0</td></tr><tr><td>Sneha Sethi</td><td>Escalations & Warranty</td><td>2</td><td>2.44</td><td>4522.0</td></tr><tr><td>Tarun Fernandes</td><td>Escalations & Warranty</td><td>2</td><td>2.55</td><td>4525.0</td></tr><tr><td>Pranav Khanna</td><td>Escalations & Warranty</td><td>2</td><td>2.57</td><td>5838.0</td></tr><tr><td>Kabir Varghese</td><td>Escalations & Warranty</td><td>2</td><td>2.6</td><td>7314.0</td></tr><tr><td>Sameer Ghosh</td><td>Escalations & Warranty</td><td>2</td><td>2.83</td><td>7282.0</td></tr><tr><td>Siddharth Kapoor</td><td>Chat Frontline</td><td>1</td><td>2.98</td><td>26.0</td></tr><tr><td>Kavya Pandey</td><td>Chat Frontline</td><td>1</td><td>3.01</td><td>27.0</td></tr><tr><td>Siddharth Trivedi</td><td>Chat Frontline</td><td>1</td><td>3.01</td><td>27.0</td></tr><tr><td>Zaid Khanna</td><td>Chat Frontline</td><td>1</td><td>3.04</td><td>25.0</td></tr></tbody></table>
+<div class="note">6 of these are Tier-2 Escalations &amp; Warranty - the hardest queue by design (Neha; policy s6).</div></div>
+<div class="card"><h3 style="margin:0 0 8px;font-size:14px">Fair version: bottom 10 within Tier 1</h3>
+<table><thead><tr><th>name</th><th>team</th><th>csat</th><th>handle_min_median</th><th>pulse2_share</th></tr></thead><tbody><tr><td>Siddharth Kapoor</td><td>Chat Frontline</td><td>2.98</td><td>26.0</td><td>0.531</td></tr><tr><td>Kavya Pandey</td><td>Chat Frontline</td><td>3.01</td><td>27.0</td><td>0.47</td></tr><tr><td>Siddharth Trivedi</td><td>Chat Frontline</td><td>3.01</td><td>27.0</td><td>0.511</td></tr><tr><td>Zaid Khanna</td><td>Chat Frontline</td><td>3.04</td><td>25.0</td><td>0.502</td></tr><tr><td>Kavya Pandey</td><td>Logistics</td><td>3.13</td><td>1466.0</td><td>0.356</td></tr><tr><td>Vivaan Pandey</td><td>Logistics</td><td>3.14</td><td>1463.0</td><td>0.287</td></tr><tr><td>Geeta Iyer</td><td>Logistics</td><td>3.18</td><td>1466.0</td><td>0.294</td></tr><tr><td>Varun Reddy</td><td>Returns Desk</td><td>3.21</td><td>1467.0</td><td>0.32</td></tr><tr><td>Mohammed Desai</td><td>Returns Desk</td><td>3.28</td><td>1473.0</td><td>0.3</td></tr><tr><td>Divya Tiwari</td><td>Returns Desk</td><td>3.29</td><td>1466.0</td><td>0.37</td></tr></tbody></table>
+<div class="note">These are the agents a training budget could genuinely help. pulse2_share shows how much is product-driven.</div></div>
+</div>
+
+<h2>CSAT by team</h2>
+<div class="card"><table><thead><tr><th>tier</th><th>team</th><th>csat_mean</th><th>n_rated</th></tr></thead><tbody><tr><td>1</td><td>Billing</td><td>3.48</td><td>679</td></tr><tr><td>1</td><td>Chat Frontline</td><td>3.43</td><td>1511</td></tr><tr><td>1</td><td>Email Frontline</td><td>3.6</td><td>727</td></tr><tr><td>1</td><td>Logistics</td><td>3.22</td><td>885</td></tr><tr><td>1</td><td>Returns Desk</td><td>3.26</td><td>470</td></tr><tr><td>1</td><td>Voice Frontline</td><td>3.58</td><td>340</td></tr><tr><td>2</td><td>Escalations & Warranty</td><td>2.58</td><td>584</td></tr></tbody></table></div>
+
+<h2>Does it work?</h2>
+<div class="card">
+<p>Classifier accuracy: <b>88% on 60 hand-labelled tickets</b>.</p>
+<ul class="checks"><li class='ok'>PASS - <b>no_negative_handle_time</b>: 0 rows still negative after TZ fix</li><li class='ok'>PASS - <b>timezone_fix_applied</b>: 2121 legacy rows needed the +5:30 fix</li><li class='ok'>PASS - <b>csat_not_zero_filled</b>: blank CSAT kept as NaN, never 0</li><li class='ok'>PASS - <b>csat_response_rate_plausible</b>: response rate 44% (policy says ~45%)</li><li class='ok'>PASS - <b>agent_join_complete</b>: 100.0% tickets matched to an agent</li><li class='ok'>PASS - <b>replacement_cost_unit_safe</b>: every replacement priced from unit_cost + logistics</li></ul>
+</div>
+
+</div></body></html>

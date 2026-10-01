@@ -1,0 +1,44 @@
+# Vireo Support Triage - configuration
+# All cost/SLA constants are lifted directly from support-policy.pdf v3.2.
+# Change these here, not in code.
+
+paths:
+  data_dir: data
+  out_dir: outputs
+
+# support-policy.pdf section 4 - FY26 planning figures (INR)
+costs:
+  contact_cost_inr:        # section 4, fully loaded cost per contact
+    chat: 210
+    email: 260
+    voice: 520
+    social: 240
+  blended_contact_inr: 290
+  transfer_inr: 305          # section 4, per internal transfer
+  agent_hour_inr: 165        # section 4, fully loaded agent-hour
+  sla_breach_credit_inr: 350 # section 3, auto store credit on a missed first response
+  replacement_logistics_inr: 340  # section 5, reverse pickup + forward shipping
+  goodwill_cap_inr: 500      # section 5
+
+# support-policy.pdf section 3 - first-response targets, in minutes
+sla_first_response_min:
+  chat: 15
+  voice: 120
+  social: 240
+  email: 480
+
+# support-policy.pdf section 9
+helpdesk_go_live: "2025-09-14"
+# Legacy (Freshdesk) resolved_at timestamps are stored in UTC; the rest of the
+# export is IST. We add this offset to legacy resolved_at only. (section 9 + README)
+legacy_resolved_utc_to_ist_hours: 5.5
+
+scorecard:
+  min_rated_tickets: 20   # don't rank an agent on fewer than this many CSAT responses
+  flag_count: 10          # client asked for "bottom ten"
+
+# Defect "surge" window used for before/after comparisons
+surge_start: "2025-12-01"
+
+# Rupee-per-USD used only to convert the optional LLM API cost estimate.
+usd_to_inr: 84

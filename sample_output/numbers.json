@@ -1,0 +1,459 @@
+{
+  "data_quality": {
+    "rows_raw": 11750,
+    "legacy_resolved_before_created_before_fix": 2121,
+    "negative_handle_after_fix": 0,
+    "csat_blank": 6554,
+    "csat_response_rate": 0.442,
+    "agents_sharing_a_name": 1,
+    "ivr_transcripts": 1076,
+    "junk_messages": 14,
+    "legacy_refund_rows_excluded": 572,
+    "logical_duplicate_rows": 0,
+    "lot_join_rate_overall": 0.65,
+    "rows_clean": 11750
+  },
+  "money": {
+    "replacements_total": 1896,
+    "replacement_cost_total": 3415990.0,
+    "avg_replacement_cost": 1802.0,
+    "arjun_estimate_inr": 2500,
+    "arjun_overstatement_pct": 39.0,
+    "pulse2_units_total": 1166,
+    "pulse2_cost_total": 2122120.0,
+    "pulse2_share_of_cost": 0.621,
+    "pulse2_units_since_surge": 1076,
+    "pulse2_cost_since_surge": 1958320.0,
+    "last_quarter": "2026Q2",
+    "last_quarter_cost_total": 646630.0,
+    "last_quarter_pulse2_cost": 424060.0,
+    "last_quarter_pulse2_share": 0.656,
+    "peak_quarter": "2026Q1",
+    "peak_quarter_cost": 1567540.0,
+    "peak_quarter_pulse2_cost": 1337700.0,
+    "pulse2_lot_join_rate": 0.65,
+    "pulse2_left_bud_share": 0.664
+  },
+  "scorecard": {
+    "naive_bottom_tier2_count": 6,
+    "naive_bottom": [
+      {
+        "agent_id": "A3041",
+        "name": "Jaspreet Desai",
+        "team": "Escalations & Warranty",
+        "tier": 2,
+        "site": "Bengaluru",
+        "tickets": 200,
+        "n_rated": 89,
+        "csat": 2.42,
+        "handle_min_median": 7291.0,
+        "sla_breach_rate": 0.1,
+        "replacement_rate": 0.435,
+        "pulse2_share": 0.705,
+        "left_bud_share": 0.55
+      },
+      {
+        "agent_id": "A3042",
+        "name": "Sneha Sethi",
+        "team": "Escalations & Warranty",
+        "tier": 2,
+        "site": "Bengaluru",
+        "tickets": 201,
+        "n_rated": 91,
+        "csat": 2.44,
+        "handle_min_median": 4522.0,
+        "sla_breach_rate": 0.095,
+        "replacement_rate": 0.498,
+        "pulse2_share": 0.662,
+        "left_bud_share": 0.547
+      },
+      {
+        "agent_id": "A3040",
+        "name": "Tarun Fernandes",
+        "team": "Escalations & Warranty",
+        "tier": 2,
+        "site": "Indore",
+        "tickets": 203,
+        "n_rated": 96,
+        "csat": 2.55,
+        "handle_min_median": 4525.0,
+        "sla_breach_rate": 0.059,
+        "replacement_rate": 0.512,
+        "pulse2_share": 0.685,
+        "left_bud_share": 0.493
+      },
+      {
+        "agent_id": "A3044",
+        "name": "Pranav Khanna",
+        "team": "Escalations & Warranty",
+        "tier": 2,
+        "site": "Bengaluru",
+        "tickets": 251,
+        "n_rated": 105,
+        "csat": 2.57,
+        "handle_min_median": 5838.0,
+        "sla_breach_rate": 0.08,
+        "replacement_rate": 0.446,
+        "pulse2_share": 0.582,
+        "left_bud_share": 0.398
+      },
+      {
+        "agent_id": "A3043",
+        "name": "Kabir Varghese",
+        "team": "Escalations & Warranty",
+        "tier": 2,
+        "site": "Bengaluru",
+        "tickets": 200,
+        "n_rated": 88,
+        "csat": 2.6,
+        "handle_min_median": 7314.0,
+        "sla_breach_rate": 0.1,
+        "replacement_rate": 0.495,
+        "pulse2_share": 0.65,
+        "left_bud_share": 0.52
+      },
+      {
+        "agent_id": "A3039",
+        "name": "Sameer Ghosh",
+        "team": "Escalations & Warranty",
+        "tier": 2,
+        "site": "Bengaluru",
+        "tickets": 249,
+        "n_rated": 115,
+        "csat": 2.83,
+        "handle_min_median": 7282.0,
+        "sla_breach_rate": 0.088,
+        "replacement_rate": 0.454,
+        "pulse2_share": 0.518,
+        "left_bud_share": 0.39
+      },
+      {
+        "agent_id": "A3004",
+        "name": "Siddharth Kapoor",
+        "team": "Chat Frontline",
+        "tier": 1,
+        "site": "Bengaluru",
+        "tickets": 305,
+        "n_rated": 129,
+        "csat": 2.98,
+        "handle_min_median": 26.0,
+        "sla_breach_rate": 0.085,
+        "replacement_rate": 0.289,
+        "pulse2_share": 0.531,
+        "left_bud_share": 0.279
+      },
+      {
+        "agent_id": "A3006",
+        "name": "Kavya Pandey",
+        "team": "Chat Frontline",
+        "tier": 1,
+        "site": "Indore",
+        "tickets": 281,
+        "n_rated": 142,
+        "csat": 3.01,
+        "handle_min_median": 27.0,
+        "sla_breach_rate": 0.089,
+        "replacement_rate": 0.278,
+        "pulse2_share": 0.47,
+        "left_bud_share": 0.27
+      },
+      {
+        "agent_id": "A3007",
+        "name": "Siddharth Trivedi",
+        "team": "Chat Frontline",
+        "tier": 1,
+        "site": "Indore",
+        "tickets": 278,
+        "n_rated": 120,
+        "csat": 3.01,
+        "handle_min_median": 27.0,
+        "sla_breach_rate": 0.058,
+        "replacement_rate": 0.241,
+        "pulse2_share": 0.511,
+        "left_bud_share": 0.306
+      },
+      {
+        "agent_id": "A3005",
+        "name": "Zaid Khanna",
+        "team": "Chat Frontline",
+        "tier": 1,
+        "site": "Bengaluru",
+        "tickets": 299,
+        "n_rated": 118,
+        "csat": 3.04,
+        "handle_min_median": 25.0,
+        "sla_breach_rate": 0.084,
+        "replacement_rate": 0.271,
+        "pulse2_share": 0.502,
+        "left_bud_share": 0.304
+      }
+    ],
+    "fair_bottom": [
+      {
+        "agent_id": "A3004",
+        "name": "Siddharth Kapoor",
+        "team": "Chat Frontline",
+        "tier": 1,
+        "site": "Bengaluru",
+        "tickets": 305,
+        "n_rated": 129,
+        "csat": 2.98,
+        "handle_min_median": 26.0,
+        "sla_breach_rate": 0.085,
+        "replacement_rate": 0.289,
+        "pulse2_share": 0.531,
+        "left_bud_share": 0.279
+      },
+      {
+        "agent_id": "A3006",
+        "name": "Kavya Pandey",
+        "team": "Chat Frontline",
+        "tier": 1,
+        "site": "Indore",
+        "tickets": 281,
+        "n_rated": 142,
+        "csat": 3.01,
+        "handle_min_median": 27.0,
+        "sla_breach_rate": 0.089,
+        "replacement_rate": 0.278,
+        "pulse2_share": 0.47,
+        "left_bud_share": 0.27
+      },
+      {
+        "agent_id": "A3007",
+        "name": "Siddharth Trivedi",
+        "team": "Chat Frontline",
+        "tier": 1,
+        "site": "Indore",
+        "tickets": 278,
+        "n_rated": 120,
+        "csat": 3.01,
+        "handle_min_median": 27.0,
+        "sla_breach_rate": 0.058,
+        "replacement_rate": 0.241,
+        "pulse2_share": 0.511,
+        "left_bud_share": 0.306
+      },
+      {
+        "agent_id": "A3005",
+        "name": "Zaid Khanna",
+        "team": "Chat Frontline",
+        "tier": 1,
+        "site": "Bengaluru",
+        "tickets": 299,
+        "n_rated": 118,
+        "csat": 3.04,
+        "handle_min_median": 25.0,
+        "sla_breach_rate": 0.084,
+        "replacement_rate": 0.271,
+        "pulse2_share": 0.502,
+        "left_bud_share": 0.304
+      },
+      {
+        "agent_id": "A3029",
+        "name": "Kavya Pandey",
+        "team": "Logistics",
+        "tier": 1,
+        "site": "Bengaluru",
+        "tickets": 340,
+        "n_rated": 159,
+        "csat": 3.13,
+        "handle_min_median": 1466.0,
+        "sla_breach_rate": 0.079,
+        "replacement_rate": 0.176,
+        "pulse2_share": 0.356,
+        "left_bud_share": 0.003
+      },
+      {
+        "agent_id": "A3028",
+        "name": "Vivaan Pandey",
+        "team": "Logistics",
+        "tier": 1,
+        "site": "Bengaluru",
+        "tickets": 348,
+        "n_rated": 154,
+        "csat": 3.14,
+        "handle_min_median": 1463.0,
+        "sla_breach_rate": 0.106,
+        "replacement_rate": 0.149,
+        "pulse2_share": 0.287,
+        "left_bud_share": 0.0
+      },
+      {
+        "agent_id": "A3030",
+        "name": "Geeta Iyer",
+        "team": "Logistics",
+        "tier": 1,
+        "site": "Bengaluru",
+        "tickets": 337,
+        "n_rated": 150,
+        "csat": 3.18,
+        "handle_min_median": 1466.0,
+        "sla_breach_rate": 0.134,
+        "replacement_rate": 0.193,
+        "pulse2_share": 0.294,
+        "left_bud_share": 0.003
+      },
+      {
+        "agent_id": "A3038",
+        "name": "Varun Reddy",
+        "team": "Returns Desk",
+        "tier": 1,
+        "site": "Bengaluru",
+        "tickets": 284,
+        "n_rated": 121,
+        "csat": 3.21,
+        "handle_min_median": 1467.0,
+        "sla_breach_rate": 0.063,
+        "replacement_rate": 0.095,
+        "pulse2_share": 0.32,
+        "left_bud_share": 0.018
+      },
+      {
+        "agent_id": "A3037",
+        "name": "Mohammed Desai",
+        "team": "Returns Desk",
+        "tier": 1,
+        "site": "Indore",
+        "tickets": 563,
+        "n_rated": 243,
+        "csat": 3.28,
+        "handle_min_median": 1473.0,
+        "sla_breach_rate": 0.101,
+        "replacement_rate": 0.098,
+        "pulse2_share": 0.3,
+        "left_bud_share": 0.014
+      },
+      {
+        "agent_id": "A3036",
+        "name": "Divya Tiwari",
+        "team": "Returns Desk",
+        "tier": 1,
+        "site": "Indore",
+        "tickets": 257,
+        "n_rated": 106,
+        "csat": 3.29,
+        "handle_min_median": 1466.0,
+        "sla_breach_rate": 0.105,
+        "replacement_rate": 0.113,
+        "pulse2_share": 0.37,
+        "left_bud_share": 0.027
+      }
+    ]
+  },
+  "validation": {
+    "data_quality_checks": [
+      {
+        "check": "no_negative_handle_time",
+        "pass": true,
+        "detail": "0 rows still negative after TZ fix"
+      },
+      {
+        "check": "timezone_fix_applied",
+        "pass": true,
+        "detail": "2121 legacy rows needed the +5:30 fix"
+      },
+      {
+        "check": "csat_not_zero_filled",
+        "pass": true,
+        "detail": "blank CSAT kept as NaN, never 0"
+      },
+      {
+        "check": "csat_response_rate_plausible",
+        "pass": true,
+        "detail": "response rate 44% (policy says ~45%)"
+      },
+      {
+        "check": "agent_join_complete",
+        "pass": true,
+        "detail": "100.0% tickets matched to an agent"
+      },
+      {
+        "check": "replacement_cost_unit_safe",
+        "pass": true,
+        "detail": "every replacement priced from unit_cost + logistics"
+      }
+    ],
+    "classifier": {
+      "available": true,
+      "n": 60,
+      "accuracy": 0.883,
+      "correct": 53,
+      "gold_rows_unmatched": 0,
+      "per_class_recall": [
+        {
+          "label": "audio_quality",
+          "n": 3,
+          "recall": 1.0
+        },
+        {
+          "label": "charging_battery",
+          "n": 3,
+          "recall": 1.0
+        },
+        {
+          "label": "connectivity_pairing",
+          "n": 3,
+          "recall": 1.0
+        },
+        {
+          "label": "left_bud_charging",
+          "n": 20,
+          "recall": 1.0
+        },
+        {
+          "label": "other",
+          "n": 21,
+          "recall": 0.71
+        },
+        {
+          "label": "transit_damage",
+          "n": 6,
+          "recall": 0.83
+        },
+        {
+          "label": "wrong_item",
+          "n": 4,
+          "recall": 1.0
+        }
+      ],
+      "errors": [
+        {
+          "ticket_id": "TK-240918",
+          "label": "other",
+          "pred": "transit_damage"
+        },
+        {
+          "ticket_id": "TK-243913",
+          "label": "transit_damage",
+          "pred": "charging_battery"
+        },
+        {
+          "ticket_id": "TK-247373",
+          "label": "other",
+          "pred": "connectivity_pairing"
+        },
+        {
+          "ticket_id": "TK-248157",
+          "label": "other",
+          "pred": "connectivity_pairing"
+        },
+        {
+          "ticket_id": "TK-248387",
+          "label": "other",
+          "pred": "transit_damage"
+        },
+        {
+          "ticket_id": "TK-250058",
+          "label": "other",
+          "pred": "charging_battery"
+        },
+        {
+          "ticket_id": "TK-250845",
+          "label": "other",
+          "pred": "connectivity_pairing"
+        }
+      ]
+    }
+  }
+}

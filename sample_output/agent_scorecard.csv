@@ -1,0 +1,45 @@
+agent_id,name,team,tier,site,tickets,n_rated,csat,handle_min_median,sla_breach_rate,replacement_rate,pulse2_share,left_bud_share
+A3004,Siddharth Kapoor,Chat Frontline,1,Bengaluru,305,129,2.98,26.0,0.085,0.289,0.531,0.279
+A3006,Kavya Pandey,Chat Frontline,1,Indore,281,142,3.01,27.0,0.089,0.278,0.47,0.27
+A3007,Siddharth Trivedi,Chat Frontline,1,Indore,278,120,3.01,27.0,0.058,0.241,0.511,0.306
+A3005,Zaid Khanna,Chat Frontline,1,Bengaluru,299,118,3.04,25.0,0.084,0.271,0.502,0.304
+A3029,Kavya Pandey,Logistics,1,Bengaluru,340,159,3.13,1466.0,0.079,0.176,0.356,0.003
+A3028,Vivaan Pandey,Logistics,1,Bengaluru,348,154,3.14,1463.0,0.106,0.149,0.287,0.0
+A3030,Geeta Iyer,Logistics,1,Bengaluru,337,150,3.18,1466.0,0.134,0.193,0.294,0.003
+A3038,Varun Reddy,Returns Desk,1,Bengaluru,284,121,3.21,1467.0,0.063,0.095,0.32,0.018
+A3037,Mohammed Desai,Returns Desk,1,Indore,563,243,3.28,1473.0,0.101,0.098,0.3,0.014
+A3036,Divya Tiwari,Returns Desk,1,Indore,257,106,3.29,1466.0,0.105,0.113,0.37,0.027
+A3027,Harpreet Goyal,Logistics,1,Bengaluru,447,210,3.31,1468.0,0.072,0.177,0.284,0.002
+A3031,Zoya Menon,Logistics,1,Bengaluru,435,212,3.31,1466.0,0.062,0.175,0.324,0.002
+A3034,Meera Pereira,Billing,1,Bengaluru,361,163,3.42,21.0,0.105,0.011,0.247,0.003
+A3032,Kunal Jain,Billing,1,Bengaluru,382,169,3.43,22.0,0.094,0.005,0.285,0.005
+A3035,Nisha Rao,Billing,1,Bengaluru,413,196,3.45,22.0,0.114,0.007,0.286,0.002
+A3020,Riya Pillai,Email Frontline,1,Bengaluru,250,101,3.5,23.0,0.092,0.108,0.428,0.064
+A3017,Aadhya Rao,Email Frontline,1,Indore,208,93,3.51,23.0,0.111,0.091,0.308,0.029
+A3026,Suresh Pereira,Voice Frontline,1,Indore,104,42,3.52,24.0,0.048,0.096,0.24,0.038
+A3008,Isha George,Chat Frontline,1,Bengaluru,228,107,3.54,23.0,0.079,0.132,0.36,0.07
+A3022,Manpreet Yadav,Email Frontline,1,Bengaluru,231,97,3.54,23.0,0.104,0.156,0.329,0.061
+A3024,Suresh Sethi,Voice Frontline,1,Bengaluru,479,204,3.55,21.0,0.05,0.096,0.317,0.05
+A3002,Megha Sheikh,Chat Frontline,1,Indore,194,88,3.58,22.0,0.144,0.108,0.366,0.046
+A3016,Om Khanna,Email Frontline,1,Indore,219,106,3.58,21.0,0.151,0.082,0.333,0.046
+A3011,Divya Jadhav,Chat Frontline,1,Bengaluru,240,104,3.63,22.0,0.104,0.083,0.371,0.054
+A3009,Vihaan Menon,Chat Frontline,1,Bengaluru,211,84,3.64,23.0,0.071,0.1,0.322,0.038
+A3021,Geeta Sen,Email Frontline,1,Indore,255,113,3.64,24.0,0.137,0.122,0.341,0.071
+A3001,Reyansh Bhatt,Chat Frontline,1,Indore,208,93,3.65,20.0,0.106,0.091,0.332,0.048
+A3015,Ishaan Dutta,Chat Frontline,1,Indore,200,92,3.65,21.0,0.085,0.06,0.36,0.03
+A3023,Meera Patel,Voice Frontline,1,Indore,96,43,3.65,20.0,0.0,0.115,0.375,0.125
+A3033,Thomas Reddy,Billing,1,Bengaluru,338,151,3.65,21.0,0.065,0.0,0.346,0.0
+A3019,Sai Joshi,Email Frontline,1,Bengaluru,260,125,3.66,22.0,0.104,0.138,0.358,0.054
+A3014,Bhavna Joshi,Chat Frontline,1,Indore,190,78,3.67,20.0,0.074,0.116,0.242,0.047
+A3003,Deepak Saxena,Chat Frontline,1,Indore,190,75,3.69,23.0,0.163,0.132,0.342,0.047
+A3010,Aarav Pereira,Chat Frontline,1,Indore,238,102,3.69,19.0,0.101,0.118,0.374,0.055
+A3025,Ananya Das,Voice Frontline,1,Indore,118,51,3.69,24.0,0.025,0.068,0.271,0.017
+A3013,Sukhwinder Rao,Chat Frontline,1,Indore,207,96,3.71,22.0,0.082,0.082,0.372,0.048
+A3012,Steven Ghosh,Chat Frontline,1,Indore,205,83,3.73,23.0,0.073,0.112,0.288,0.029
+A3018,Kunal Pillai,Email Frontline,1,Bengaluru,247,92,3.78,22.0,0.093,0.142,0.364,0.061
+A3041,Jaspreet Desai,Escalations & Warranty,2,Bengaluru,200,89,2.42,7291.0,0.1,0.435,0.705,0.55
+A3042,Sneha Sethi,Escalations & Warranty,2,Bengaluru,201,91,2.44,4522.0,0.095,0.498,0.662,0.547
+A3040,Tarun Fernandes,Escalations & Warranty,2,Indore,203,96,2.55,4525.0,0.059,0.512,0.685,0.493
+A3044,Pranav Khanna,Escalations & Warranty,2,Bengaluru,251,105,2.57,5838.0,0.08,0.446,0.582,0.398
+A3043,Kabir Varghese,Escalations & Warranty,2,Bengaluru,200,88,2.6,7314.0,0.1,0.495,0.65,0.52
+A3039,Sameer Ghosh,Escalations & Warranty,2,Bengaluru,249,115,2.83,7282.0,0.088,0.454,0.518,0.39
