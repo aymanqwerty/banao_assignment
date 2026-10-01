@@ -125,10 +125,8 @@ made the scoping/judgment calls, and wrote the gold labels by reading tickets.
 
 ### 10. Honest hours spent. One number.
 
-> **[FILL IN YOUR REAL NUMBER.]** Count your actual hands-on time: directing the
-> build, reading the output, understanding it well enough to defend it, and
-> recording the video. Be honest — the form says this can only help you, and the
-> next round is a live conversation about this work.
+~3 hours (directing the AI build, making the judgment calls, reviewing the
+output, and recording the walkthrough).
 
 ### 11. GitHub repo link
 
