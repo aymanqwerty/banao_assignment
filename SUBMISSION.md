@@ -132,4 +132,4 @@ made the scoping/judgment calls, and wrote the gold labels by reading tickets.
 
 ### 11. GitHub repo link
 
-> **[PASTE after pushing — see below.]**
+https://github.com/aymanqwerty/banao_assignment
